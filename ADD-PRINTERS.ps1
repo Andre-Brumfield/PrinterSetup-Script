@@ -38,11 +38,11 @@ Function Printer_Setup{
         elseif ($prompt -eq "M" -or $userInput -eq "m"){
             Write-Host "There must be a .txt file that contains all the computers that need the printer added on each line, such as:"
             Start-Sleep -Seconds 0.5
-            Write-Host "UTHSC1234"
+            Write-Host "Asset Tag Placement"
             Start-Sleep -Seconds 0.5
-            Write-Host "UTHSC2345"
+            Write-Host "Asset Tag Placement"
             Start-Sleep -Seconds 0.5
-            Write-Host "UTHSC3456"
+            Write-Host "Asset Tag Placement"
             Start-Sleep -Seconds 1
 
             $prompt = Read-Host "Please paste the directory where the .txt file is located, no quotations please. Feel free to hard code the directory to just reference the .txt file in the future!"
